@@ -48,34 +48,18 @@
     margin:70px;
     
 }
-
-.fa-facebook {
-    color:gray;
-    text-decoration: none;
-    margin: 20px;
-    padding:20px;
-
-}
-.fa-instagram {
-    color:gray;
-    text-decoration: none;
-    margin: 20px;
-    padding:20px;
-}
-.fa-twitter{
-    color:gray;
-    text-decoration: none;
-    margin: 20px;
-    padding:20px;
-
-}
-.fa-youtube{
-    color:gray;
-    text-decoration: none;
-    margin: 20px;
-    padding:20px;
+.social{
+background-color:goldenrod;
 }
 
+.fa{
+    color:powderblue;
+    text-decoration: none;
+    margin: 15px;
+    padding:20px;
+    width:80px;
+
+}
 .fa:hover {
     background-color: white;
     
@@ -204,3 +188,10 @@ transform: translate(-50%, -50%);
     color:red;
 
 }
+#map {
+    position:block;
+    width: 100%;
+    height:400px;
+    margin-bottom:40px;
+
+  }
