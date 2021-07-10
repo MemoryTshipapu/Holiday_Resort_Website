@@ -1,11 +1,13 @@
 
-element=document.getElementById('poolView');
-function Changeimage() {
-    if (element.src.match("images/poolView1")) {
-        element.src="images/poolView3.jpg";
-    }
 
-    else {
-        element.src="images/poolView1.jpg";
-    }
-};
+var btnContainer = document.getElementsByClassName("topnav");
+var btns = btnContainer.getElementsByClassName("nav");
+
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}

@@ -3,33 +3,76 @@
     margin:0;
     padding:0;
 }
-
-
 .topnav {
-    overflow: hidden;
-    text-align: right;
-    background-color:white;
+    background:green;
+    text-align:center
+    
 }
-.topnav a {
-    float:right;
-    font-size:20px;
-    padding: 10px;
-    color:black;
-    text-align:center;
-    text-decoration: none;
-    margin:50px;
+.topnav ul {
+    display:inline-flex;
+    list-style:none;
+    color:#fff;
+    
 
 }
-.topnav a:hover {
-    background-color: cadetblue;
-    color:cornsilk;
+.topnav ul li {
+width:120px;
+margin:15px;
+padding:15px;
+text-align:center
+
+} 
+.topnav ul li a {
+text-decoration: none;
+color:white;
+font-family: 'Nunito Sans', sans-serif;
+
 }
-.topnav img {
-    float:left;
-    padding:0px;
-    width:250px;
-    height:auto;
+  .topnav a:hover {
+    border-bottom: 2px solid rgb(223, 141, 20);
+  }
+  
+ .topnav .active {
+    border-bottom: 3px solid rgb(223, 141, 20);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    display:absolute;
+    left:100%;
 }
+
+
 
 .foot {
     display:inline-block;
@@ -53,15 +96,16 @@ background-color:goldenrod;
 }
 
 .fa{
-    color:powderblue;
+    color:white;
     text-decoration: none;
     margin: 15px;
-    padding:20px;
-    width:80px;
+    padding: 20px;
+    
 
 }
 .fa:hover {
-    background-color: white;
+    background-color:#555551;
+    border-radius: 3px;
     
 } 
 .email {
@@ -71,11 +115,12 @@ background-color:goldenrod;
     font-size: 20px;
     margin: 20px;
     padding:20px;
-    color: powderblue  ;
 }
 .email:hover {
-    background-color:grey;
+    background-color:#555551;
     color:white;
+    border-radius: 3px;
+
 
 }
 .container{
