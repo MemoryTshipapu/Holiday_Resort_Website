@@ -271,7 +271,7 @@ margin: 15px;
 .block1 img{
     float: left;    
      margin: 0 15px 0 0;
-     width:500px;
+     width:600px;
      
 
 }
@@ -292,7 +292,7 @@ margin: 15px;
     .block2 img{   
         float: right;    
         margin: 0 0 0 15px;
-        width:500px;
+        width:550px;
     
     }
     
@@ -309,7 +309,8 @@ margin: 15px;
     .block3 img{
         float: left;    
          margin: 0 15px 0 0;
-         width:700px;
+         width:750px;
+         margin-bottom: 20px;
          
     
     }
@@ -321,3 +322,62 @@ margin: 15px;
     }
     
     
+/* contact */
+
+.contact {
+    text-align : center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.contact h1 {
+    color:rgb(223, 141, 20);
+    font-size: 70px;
+    font-family: 'Merienda', cursive;
+font-family: 'Tajawal', sans-serif;
+margin:15px;
+}
+
+.contact h4 {
+    color:black;
+    font-size:30px;
+    font-family: 'Merienda', cursive;
+    font-family: 'Tajawal', sans-serif;
+    margin:15px;
+}
+.contact p {
+    color:grey;
+    font-size:30px;
+    font-family: 'Merienda', cursive;
+    font-family: 'Tajawal', sans-serif;
+    margin:15px;
+}
+.contact i {
+    color:red
+}
+
+.sidenav {
+    width: 350px; 
+    float:right; 
+    position:absolute;
+    z-index: 1; 
+    top: 200px; 
+    left: 73%;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    background-color: white;
+}
+.sidenav p {
+font-size:22px;
+font-family: 'Merienda', cursive;
+    font-family: 'Tajawal', sans-serif;
+
+
+}
+.img{
+    float: left;    
+    margin: 0 15px 0 0;
+    width:200px;
+    height:700px;
+    margin-bottom: 20px;
+
+}
