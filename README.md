@@ -1,7 +1,7 @@
 # HappyLand Holiday Resort website
 This is a basic website for the Happy Land Holiday Resort, allowing end-users to learn more about us and what we have to offer, as well as make online reservations at the resort.
 
-##Technology and tools 
+## Technology and tools 
 * HTML
 * CSS
 * Javascript
@@ -18,5 +18,5 @@ is a gallery page where users can automatically upload all the images they took 
 ##author :
 Memory Tshipapu 
 
- ![Website screenshots](/images/screen1.png)
+ ![Website screenshots](/images/"screen1.png")
 
