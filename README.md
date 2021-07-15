@@ -18,5 +18,3 @@ is a gallery page where users can automatically upload all the images they took 
 ##author :
 Memory Tshipapu 
 
-![Screenshot](screen1.png)
-
