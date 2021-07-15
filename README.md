@@ -18,5 +18,8 @@ A gallery page where users can automatically upload all the images they took at 
 ## author :
 Memory Tshipapu 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> ca5d88bd525ac503f23c0ad6ea59c2b54896d0aa
