@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,800&family=Overpass:wght@100&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+<style>
+    body {
+      background-image: url("images/background.jpg");
+    }
+    </style>
+
+</head>
+<body>
+   <header>
+       <nav>
+        <div class="topnav">
+            <ul>
+                <li><img src="images/logo.png" ></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li> <a href="Entertainments.html">Entertainments</a></li>
+           <li ><a href="Accomodation.html">Accomodation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a  href ="map.html">view map</a></li>
+            </ul>
+          </div>
+        
+       </nav>
+   </header>
+    
+<h1 class="availh1">Room Available </h1>
+
+<p class=Availp> you may proceed with your bookings</p>
+<p class=Availp>if you wish to change your booking click here to go back <a href="bookNow.html">here</a> </p>
+<div class="container">
+
+    <div class="card-details">
+
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"  placeholder="first name" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"  placeholder="Last name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="lname" name="lname"  placeholder="email" required><br>
+            <label for="lname">Phone Number :</label><br>
+            <input type="tel" id="lname" name="lname"  placeholder="###-###-###" required> <br>
+          </form>
+
+      <p>Pay using Credit or Debit card</p>
+
+      <form action="success.html" method="get" >
+      <div class="card-number">
+        <label> Card Number </label>
+        <input
+          type="text"
+          class="card-number-field"
+          placeholder="###-###-###" required/>
+      </div>
+      <br />
+      <div class="date-number">
+        <label> Expiry Date </label>
+        <input type="date" class="date-number-field" 
+               placeholder="DD-MM-YY" required />
+      </div>
+
+      <div class="cvv-number">
+        <label> CVV number </label>
+        <input type="text" class="cvv-number-field" 
+               placeholder="xxx" required/>
+      </div>
+      <div class="nameholder-number">
+        <label> Card Holder name </label>
+        <input
+          type="text"
+          class="card-name-field"
+          placeholder="Enter your Name" required/>
+      </div>
+      <button type="submit" 
+              class="submit-now-btn">
+        submit
+      </button>
+    </div>
+  </div>
+</form>
+ 
+        <script src="script.js"></script>
+    
+    </body>
+    </html>

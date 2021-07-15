@@ -129,7 +129,7 @@ background-color:goldenrod;
 
 
 }
-.container{
+.container_{
     position: relative;
     text-align: center;
     color: white;
@@ -373,3 +373,365 @@ font-family: 'Merienda', cursive;
 
 
 }
+
+.mySlides_ img {
+    height:550px;
+}
+.centered2{
+    position: absolute;
+    top: 40%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    margin-top:10px;
+    }
+    .centered2 h1 {
+        font-size:80px;
+        color:white;
+        font-family: 'Handlee', cursive;
+    }
+    .centered2 p {
+        font-size:80px;
+        color:White;
+        font-family: 'Handlee', cursive;
+    }
+
+    .centered3{
+        position: absolute;
+        top: 38%;
+        left:20%;
+        transform: translate(-50%, -50%);
+        margin-top:10px;
+        }
+        .centered3 h1 {
+            font-size:78px;
+            color:white;
+            font-family: 'Handlee', cursive;
+        }
+        
+    
+
+        .centered4{
+            position: absolute;
+            top: 40%;
+            left:25%;
+            transform: translate(-50%, -50%);
+            margin-top:10px;
+            }
+            .centered4 h1 {
+                font-size:70px;
+                color:white;
+                font-family: 'Handlee', cursive;
+            }
+            .centered4 p {
+                font-size:70px;
+                color:White;
+                font-family: 'Handlee', cursive;
+            }
+.h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    color:brown;
+    margin:15px;
+  
+}
+.p{
+    float:center;
+    font-size: 40px;
+    text-align: center; 
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container3 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap:wrap;
+    float: left;
+    float: left;
+    width: 33%;
+    padding: 5px;
+    margin-top :11px;
+  }
+  
+
+.card {
+position : relative;
+background:whitesmoke;
+max-width:350px;
+margin:20px;
+border-radius:2px;
+box-shadow:0 5px 25px rgb(244/10%);
+}
+.card_image {
+    max-height :200px;
+    overflow:hidden;
+
+}
+.card_image img {
+    max-width: 100%;
+    height:auto;
+
+}
+
+.card_title {
+    position:relative;
+    color:#222;
+   
+}
+
+.card_title {
+font-size :20px;
+font-weight: 700;
+margin-bottom: 10px;
+}
+
+.card-description {
+    font-size :20px;
+font-weight: 700;
+margin-bottom: 10px;
+padding: 10px;
+
+}
+
+.closing p {
+ font-size: 30px;
+ display:absolute;
+ text-align: center;
+ font-family: 'Nunito Sans', sans-serif;
+ color:black;
+ margin:30px;
+ padding:20px;
+
+
+}
+.slide-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color:whitesmoke;
+    width:100opx;
+    height:400px
+}
+.mySlides {
+    display:none;
+    float: left;    
+    margin:10px;
+    width:500px;
+
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+  }
+  
+  .next {
+    right:50%;
+    top: 150px;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left:7%;
+    top: 150px;
+  }
+
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+.wraper h1 {
+    margin-top: 100px;
+    font-family: 'Nunito Sans', sans-serif; 
+  }
+.wraper p{
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:20px;
+
+}
+.dif {
+    color:darkgreen;
+    font-style:italic;
+}
+
+  .slide-container1{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color:whitesmoke;
+    height:400px;
+}
+.mySlides1 {
+    display:none;
+    float: left;    
+    margin:10px;
+    width:500px;
+
+}
+
+.slide-container3{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color:whitesmoke;
+    height:400px
+}
+
+.myslides3{
+    display:none;
+    float: left;    
+    margin:10px;
+    width:500px;
+
+}
+
+.slide-container4{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color:whitesmoke;
+    height:400px
+}
+
+.myslide{
+    display:none;
+    float: left;    
+    margin:10px;
+    width:500px;
+
+}
+
+.wraper a {
+  float:right;
+    background-color: green;
+    color: white;
+    margin-top:5px;
+    padding:15px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+margin-left: 20px;
+}
+.wraper a:hover {
+    background-color:lightgreen;
+}
+.wraper a:active {
+        background-color: black;
+      }
+      
+    .wrapper a:visited {
+        background-color: #ccc;
+      }
+
+    .myForm {
+        text-align: center;
+        margin: 5%;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-style: bold;
+        font-size: 20px;
+        width:450px;
+        height:450px;
+        background-color: whitesmoke;
+
+      }
+
+      .myForm a {
+          text-decoration: none;
+          background-color: green;
+          padding:15px;
+          color:white;
+          border: 5px;
+          font-family: 'Archivo Narrow', sans-serif;
+          margin-top:40%;
+          
+      }
+      .myForm a:hover {
+          background-color: goldenrod;
+
+      }
+
+      .container {
+        width: 400px;
+        top: 270px;
+        left: 1%;
+        position: absolute;
+        background-color: whitesmoke;
+      }
+        
+    
+      .text {
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        font-family: 'Archivo Narrow', sans-serif;
+      }
+        
+    
+      .card-details {
+        margin: 10px 30px;
+        padding: 10px;
+      }
+        
+      .card-details p {
+        font-size: 25px;
+        color:black;
+        font-family: 'Archivo Narrow', sans-serif;
+        margin:20px;
+      }
+        
+      .card-details label {
+        font-size: 20px;
+        line-height: 35px;
+        color:black;
+        font-family: 'Archivo Narrow', sans-serif;
+      }
+        
+      .submit-now-btn {
+        cursor: pointer;
+        color:white;
+        height: 30px;
+        width: 200px;
+        border: none;
+        margin: 15px 30px;
+        background-color: green;
+      }
+      .availh1 {
+          font-size:40px;
+         font-family: 'Archivo Narrow', sans-serif;
+          color:#D4AF37;
+          margin:20px;
+          font-style: italic;
+      }
+      .Availp {
+        font-size:20px;
+        font-family: 'Archivo Narrow', sans-serif;
+         color:black;
+         font-style: italic;
+         margin :10px;
+
+      }
+
+    .last{
+        display: block;
+        margin:auto;
+        width: 500px;
+      }
+      .las{
+          text-align :center;
+          font-size:20px;
+          justify-content: center;
+      }
+
+      .las a:hover {
+          color:red;
+      }
