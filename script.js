@@ -1,28 +1,4 @@
-try
-{    
-    function getCookie(source)
-    {
-        var name = source + "=";
-        var ca = document.cookie.split(';');
-        for(var i = 0; i < ca.length; i++)
-        {
-            var c = ca[i];
-            while (c.charAt(0) == ' ')
-            {
-                c = c.substring(1);
-            }
-            if (c.indexOf(name) == 0)
-            {
-                return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-    }
-}
-catch(error)
-{
-    console.log("Error accessing data=============");
-}
+
 
 var slideIndex = 0;
 showSlides();
@@ -40,8 +16,8 @@ function showSlides() {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000); // Change image every 2 seconds
+ 
+  setTimeout(showSlides, 3000); 
 }
 
 
