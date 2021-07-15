@@ -18,5 +18,5 @@ is a gallery page where users can automatically upload all the images they took 
 ##author :
 Memory Tshipapu 
 
- ![Website screenshots](/images/"screen1.png")
+![Screenshot](screen1.png)
 
