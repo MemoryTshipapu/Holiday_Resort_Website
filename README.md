@@ -13,9 +13,9 @@ I was only recently exposed to javascript, so I believe that incorporating it in
 ## Features i would like to implement in the future :
 A gallery page where users can automatically upload all the images they took at our resourt, these images should automacally expire after 30 days to make room for all our guests who'd like to share their experiences.
 
-[Live Demo](http://happyland.epizy.com/index.html)
+## [Live Demo](http://happyland.epizy.com/index.html)
 
-## author :
+## Author :
 Memory Tshipapu 
 
 
