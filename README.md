@@ -11,6 +11,16 @@ This is a basic website for the Happy Land Holiday Resort, allowing end-users to
 * Javascript
 * Visual studio code
 
+## Prerequisites
+There are no prerequisits to run the project
+
+## Usage
+Clone or download this project, then open the index.html file in your preferred browser.
+
+## Contributors
+Contributions, issues and feature requests are welcome!
+
+
 ## Challenges :
 I was only recently exposed to javascript, so I believe that incorporating it into my website was a bit of a challenge. However, it was a great opportunity for me to learn more and explore javascript.
 
